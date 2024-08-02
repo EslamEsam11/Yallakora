@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Yallakora</title>
+    <link rel="icon" href="img/iconLogo.png" />
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+</head>
+<body lang="ar" dir="rtl">
+    <header class="">
+        <div class="button">
+            <button  id="open"><i class="fa-solid fa-bars"></i></button>
+            <button id="close" class="hid"><i class="fa-solid fa-xmark"></i></button>
+            <div class="logo">
+                <img src="img/ykLogo.png" alt="">
+            </div>
+          </div>
+            <div class="navbarList hid ">
+                <div class="rightNavbar">
+                    <div class="mainSections">
+                        <div class="titleMainSections">
+                            <p>الاقسام الرئيسية</p>
+
+                        </div>
+                        <ul> 
+                            <div class="firstColumn">
+                                <li><a href="">المباريات</a></li>
+                                <li><a href="">الاخبار</a></li>
+                                <li><a href="" class="background">دوريات وبطولات</a> </li>
+                                <li><a href="">مالتيميديا</a></li>
+                            </div>
+                           <div class="secondColumn">
+                                <li><a href="">الانتقالات</a></li>
+                                <li><a href="">رياضات أخرى</a> </li>
+                                <li><a href="">ريلز</a></li>
+                                <li><a href="">أولمبياد باريس 2024</a>   <span>جديد</span></li>
+                           </div>
+                        </ul>
+                    </div>
+                    <!-- responsive -->
+                    <div class="leaguesChampionships">
+                        <div class="upDown">
+                            <p> دوريات وبطولات</p>
+                           <button id="down"> <i class="fa-solid fa-chevron-down " ></i></button>
+                            <button id="up" class="hid"><i class="fa-solid fa-chevron-up " ></i></button>
+                        </div>
+                        <div class="navBarDown hid">
+                            <div class="topNavBar">
+                                <div class="rightNavBar">
+                                    <div class="titleRightNavBar">
+                                        <p>محلية</p>
+                                    </div>
+                                    <ul>
+                                        <li><a href="">كأس مصر</a></li>
+                                        <li><a href="">الدورى المصري</a></li>
+                                        <li><a href="">كأس رابطة الاندية المحترفة</a></li>
+                                    </ul>
+                                </div>
+                                <div class="leftNavBar">
+                                    <div class="titleleftNavBar">
+                                        <p>قارية</p>
+                                    </div>
+                                    <ul>
+                                        <li><a href="">كأس السوبر الاوروبي </a></li>
+                                        <li><a href="">كأس السوبر الافريقي</a></li>
+                                        <li><a href="">يورو 2024</a></li>
+                                        <li><a href="">الدوري الاوروبي</a></li>
+                                        <li><a href="">تصفيات كأس العالم-افريقيا</a></li>
+                                        <li><a href="">دوري أبطال اسيا</a></li>
+                                        <li><a href="">تصفيات أفريقيا للسلة</a></li>
+                                        <li><a href="">تصفيات كأس العالم - أمريكا الجنوبية</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="topNavBar">
+                                <div class="rightNavBar">
+                                    <div class="titleRightNavBar">
+                                        <p>محلية</p>
+                                    </div>
+                                    <ul>
+                                        <li><a href="">كأس مصر</a></li>
+                                        <li><a href="">الدورى المصري</a></li>
+                                        <li><a href="">كأس رابطة الاندية المحترفة</a></li>
+                                    </ul>
+                                </div>
+                                <div class="leftNavBar">
+                                    <div class="titleleftNavBar">
+                                        <p>قارية</p>
+                                    </div>
+                                    <ul>
+                                        <li><a href="">كأس السوبر الاوروبي </a></li>
+                                        <li><a href="">كأس السوبر الافريقي</a></li>
+                                        <li><a href="">يورو 2024</a></li>
+                                        <li><a href="">الدوري الاوروبي</a></li>
+                                        <li><a href="">تصفيات كأس العالم-افريقيا</a></li>
+                                        <li><a href="">دوري أبطال اسيا</a></li>
+                                        <li><a href="">تصفيات أفريقيا للسلة</a></li>
+                                        <li><a href="">تصفيات كأس العالم - أمريكا الجنوبية</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="international">
+                                <div class="titleleftNavBar">
+                                    <p>قارية</p>
+                                </div>
+                                <ul>
+                                    <li><a href="">كأس مصر</a></li>
+                                    <li><a href="">الدورى المصري</a></li>
+                                    <li><a href="">كأس رابطة الاندية المحترفة</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="BottomNavBar">
+                        <div class="upDownTwo">
+                            <p>  مالتيميديا</p>
+                           <button id="downTwo"> <i class="fa-solid fa-chevron-down " ></i></button>
+                            <button id="upTwo" class="hid"><i class="fa-solid fa-chevron-up " ></i></button>
+                        </div>
+                        <div class="navBarDownTwo  hid">
+                            <div class="multimedia">
+                                <div class="rightLeft">
+                                    <div class="rightBottomNavbar">
+                                        <ul>
+                                            <li><a href="">كأس مصر</a></li>
+                                            <li><a href="">الدورى المصري</a></li>
+                                            <li><a href="">كأس رابطة الاندية المحترفة</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="leftBottomNavbar">
+                                        <ul>
+                                            <li><a href="">كأس مصر</a></li>
+                                            <li><a href="">الدورى المصري</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="titleMainSections">
+                       <a href=""> <p> للاعلان معنا</p></a>
+
+                    </div>
+                    <div class="titleMainSections">
+                       <a href=""> <p> سياسة الخوصية</p></a>
+
+                    </div>
+                    <div class="socialMediaFooter">
+                        <a href=""><i class="fa-brands fa-facebook-f facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                        <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                    <div class="downloadAppNavbar">
+                        <p>حمل التطبيق</p>
+                        <div class="icon">
+                            <a href=""><img src="img/iosIcon.png" alt=""></a>
+                            <a href=""><img src="img/androidapp.png" alt=""></a>
+                            <a href=""><img src="img/huaweiapp.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="middleNavbar">
+                    <div class="container">
+                        <div class="local">
+                            <h2>محلية</h2>
+                            <div class="linkLocal">
+                                <a href="">كأس مصر</a>
+                                <a href="">الدوري المصري</a>
+                                <a href="">كأس رابطة الاندية المحترفة</a>
+                            </div>
+                        </div>
+                        <div class="continental">
+                            <h2>قارية</h2>
+                          <div class="linkContinental">
+                            <a href="">يورو 2024</a>
+                            <a href="">الدوري الاوروبي</a>
+                            <a href="">تصفيات كأس العالم-افريقيا</a>
+                            <a href="">كوبا أمريكا</a>
+                            <a href="">دوري أبطال اسيا</a>
+                            <a href="">تصفيات أفريقيا للسلة</a>
+                            <a href="">تصفيات كأس العالم - أمريكا الجنوبية</a>
+                          </div>
+                        </div>
+                        <div class="international">
+                            <h2>عالمية</h2>
+                          <div class="linkInternational">
+                            <a href=""> أولمبياد باريس 2024 - كرة قدم</a>
+                            <a href=""> أولمبياد باريس 2024 - كرة اليد</a>
+                            <a href="">  أولمبياد باريس 2024 - كرة طائرة</a>
+                            <a href="">أولمبياد باريس 2024 - اخرى </a>
+                          </div>
+                        </div>
+                        <div class="arabic">
+                            <h2>
+                                عربية
+                            </h2>
+                            <div class="linkArabic">
+                                <a href=""> الدوري المغربي</a>
+                                <a href=""> الدوري التونسي</a>
+                                <a href=""> دوري نجوم قطر  </a>
+                                <a href="">  الدوري الإماراتي   </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="logoSmallScreen">
+            <div class="logo">
+                <img src="img/ykLogo.png" alt="">
+            </div>
+        </div>
+        <div class="headerNav">
+            <ul>
+                <li><a href="">المباريات</a></li>
+                <li><a href="">الاخبار</a></li>
+                <li><a href="">دوريات وبطولات</a> </li>
+                <li><a href="">مالتيميديا</a></li>
+                <li><a href="">الانتقالات</a></li>
+                <li><a href="">رياضات أخرى</a> </li>
+                <li><a href="">ريلز</a></li>
+                <li><a href="">أولمبياد باريس 2024</a>   <span>جديد</span></li>
+            </ul>
+        </div>
+        <div class="socialMedia">
+            <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+            <button id="btnSearch"><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></button>
+            <button id="searchclose" class="hid"><i class="fa-solid fa-xmark"></i></button>
+           <div class="search hid">
+                <div class="searchStyle">
+                    <input type="search" placeholder="بحث">
+                    <button><i class="fa-solid fa-magnifying-glass fa-rotate-90"></i></button>
+                </div>
+           </div>
+        </div>
+    </header>
+    <section>
+        <div class="boxSection">
+            <div class="container">
+                <div class="allMatches">
+                    <div class="btnAllmatches ">
+                        <button><a href="">مباريات الأمس</a></button>
+                        <button><a href="" class="active">مباريات اليوم</a></button>
+                        <button><a href="">مباريات الغد</a></button>
+                    </div>
+                    <div class="titleAllmatches ">
+                        <h2>
+                            <a href="">
+                                جميع المباريات
+                                <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
+                            </a>
+                        </h2>
+                    </div>
+                </div>
+                <!-- Swiper -->
+                <div class="swiper">
+                        <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="boxSwiper">
+                                <div class="titleBox">
+                                    <h2>
+                                        الدوري المصري
+                                    </h2>
+                                </div>
+                               <div class="boxAll">
+                                <div class="boxImg">
+                                    <img src="img/ahly12023_10_19_17_58.jpg" alt="">
+                                    <h2>
+                                        الاهلي
+                                    </h2>
+                                </div>
+                                <div class="boxResultTime">
+                                    <div class="boxResult">
+                                        <h3>-</h3>
+                                        <h3>-</h3>
+                                    </div>
+                                    <div class="boxTime">
+                                        <button>لم تبدأ</button>
+                                        <p>21:00</p>
+                                    </div>
+                                </div>
+                                <div class="boxImg2">
+                                    <img src="img/cliopatraFC2020_12_17_18_1.jpg" alt="">
+                                    <h2>
+                                        سيراميكا
+                                         
+                                    </h2>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="boxSwiper">
+                                <div class="titleBox">
+                                    <h2>
+                                        الدوري المصري
+                                    </h2>
+                                </div>
+                               <div class="boxAll">
+                                <div class="boxImg">
+                                    <img src="img/ahly12023_10_19_17_58.jpg" alt="">
+                                    <h2>
+                                        الاهلي
+                                    </h2>
+                                </div>
+                                <div class="boxResultTime">
+                                    <div class="boxResult">
+                                        <h3>-</h3>
+                                        <h3>-</h3>
+                                    </div>
+                                    <div class="boxTime">
+                                        <button>لم تبدأ</button>
+                                        <p>21:00</p>
+                                    </div>
+                                </div>
+                                <div class="boxImg2">
+                                    <img src="img/cliopatraFC2020_12_17_18_1.jpg" alt="">
+                                    <h2>
+                                        سيراميكا
+                                         
+                                    </h2>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="boxSwiper">
+                                <div class="titleBox">
+                                    <h2>
+                                        الدوري المصري
+                                    </h2>
+                                </div>
+                               <div class="boxAll">
+                                <div class="boxImg">
+                                    <img src="img/ahly12023_10_19_17_58.jpg" alt="">
+                                    <h2>
+                                        الاهلي
+                                    </h2>
+                                </div>
+                                <div class="boxResultTime">
+                                    <div class="boxResult">
+                                        <h3>-</h3>
+                                        <h3>-</h3>
+                                    </div>
+                                    <div class="boxTime">
+                                        <button>لم تبدأ</button>
+                                        <p>21:00</p>
+                                    </div>
+                                </div>
+                                <div class="boxImg2">
+                                    <img src="img/cliopatraFC2020_12_17_18_1.jpg" alt="">
+                                    <h2>
+                                        سيراميكا
+                                         
+                                    </h2>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="boxSwiper">
+                                <div class="titleBox">
+                                    <h2>
+                                        الدوري المصري
+                                    </h2>
+                                </div>
+                               <div class="boxAll">
+                                <div class="boxImg">
+                                    <img src="img/ahly12023_10_19_17_58.jpg" alt="">
+                                    <h2>
+                                        الاهلي
+                                    </h2>
+                                </div>
+                                <div class="boxResultTime">
+                                    <div class="boxResult">
+                                        <h3>-</h3>
+                                        <h3>-</h3>
+                                    </div>
+                                    <div class="boxTime">
+                                        <button>لم تبدأ</button>
+                                        <p>21:00</p>
+                                    </div>
+                                </div>
+                                <div class="boxImg2">
+                                    <img src="img/cliopatraFC2020_12_17_18_1.jpg" alt="">
+                                    <h2>
+                                        سيراميكا
+                                         
+                                    </h2>
+                                </div>
+                               </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                   
+                </div>
+                <div class="titleAllmatchesRes ">
+                    <h2>
+                        <a href="">
+                            جميع المباريات
+                            <i class="fa-solid fa-chevron-up fa-rotate-270"></i>
+                        </a>
+                    </h2>
+                </div>
+                <div class="allNews">
+                    <div class="rightAllnews">
+                        <div class="bigImg">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/451430248-383696127695196-4428458437470854323-n2024_7_27_19_41.jpg" alt=""></a>
+                            <p><span>مباشر</span>
+                                 أولمبياد باريس 2024 - كرة قدم
+                                محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا                        
+                            </p>
+                        </div>
+                        <div class="twoImg">
+                            <div class="rightImg">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                                <p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p>
+                            </div>
+                            <div class="leftImg">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><img src="img/882024_7_28_18_8.jpg" alt=""></a>
+                                <p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="middleAllnews">
+                        <div class="topImg">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                            <p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p>
+                        </div>
+                        <div class="topImgSmallScreen hid">
+                            <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                            <div class="textSmallScreen">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p></a>
+                            </div>
+                        </div>
+                        <div class="middleImg">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/882024_7_28_18_8.jpg" alt=""></a>
+                            <p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p>
+                        </div>
+                        <div class="topImgSmallScreen hid">
+                            <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                            <div class="textSmallScreen">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p></a>
+                            </div>
+                        </div>
+                        <div class="bottomImg">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/882024_7_28_18_8.jpg" alt=""></a>
+                            <p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p>
+                        </div>
+                        <div class="topImgSmallScreen hid">
+                            <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                            <div class="textSmallScreen">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p></a>
+                            </div>
+                        </div>
+                        <div class="topImgSmallScreen hid">
+                            <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                            <div class="textSmallScreen">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p></a>
+                            </div>
+                        </div>
+                        <div class="topImgSmallScreen hid">
+                            <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                            <div class="textSmallScreen">
+                                <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                <a href=""><p>
+                                    أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                </p></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertisement">
+                        <div class="advertisementImg">
+                            <h2 class="text-center">اعلان</h2>
+                            <a href=""><img src="" alt=""></a>
+                        </div>
+                        <div class="reconnaissance">
+                            <h2>استطلاع يلاكورة</h2>
+                            <p>
+                                ما توقعاتك لمباراة مصر وفرنسا في كرة اليد بأولمبياد باريس؟
+                            </p>
+                            <div class="select">
+                                <label >
+                                    <input id="win" type="radio" name="we" value="فوز مصر" checked />
+                                    فوز مصر
+                                </label>
+                                <label>
+                                    <input type="radio" name="we" value="التعادل" >
+                                    التعادل
+                                </label>
+                                <label> 
+                                    <input type="radio" name="we" value="فوز فرنسا" >
+                                    فوز فرنسا
+                                </label>
+                            </div>     
+                            <div class="vote">
+                                <a href="">
+                                        تصويت
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="news">
+                    <div class="titleNews">
+                        <a href=""><h2>الأخبار</h2></a>
+                        <div class="more">
+                            <a href="">
+                                المزيد
+                                <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="topImgSmallScreen hid">
+                        <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                        <div class="textSmallScreen">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><p>
+                                أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                            </p></a>
+                        </div>
+                    </div>
+                    <div class="allBoxnews">
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                        <div class="boxNews">
+                            <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                            <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                            <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                            الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                            </p>
+                            <span>30 يوليو 2024  | 07:59 م</span>
+                        </div>
+                    </div>
+                    <div class="advertisementImg">
+                        <h2 class="text-center">اعلان</h2>
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                </div>
+                <div class="reelsYallakora">
+                    <div class="titleNews">
+                        <a href=""><h2>ريلز يلاكورة</h2></a>
+                        <div class="btnNews">
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                    <div #swiperRef="" class="swiper mySwiperReels">
+                        <div class="swiper-wrapper">
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                          <div class="swiper-slide">
+                            <div class="boxReels">
+                                <a href=""><img src="img/reels.jpg" alt=""></a>
+                                <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                          </div>
+                        </div>
+                     
+                    </div>
+                    <div class="advertisementImg">
+                        <h2 class="text-center">اعلان</h2>
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                </div>
+                <div class="statistics">
+                    <div class="boxStatistics">
+                        <div class="titleStatistics">
+                            <a href=""> <h2> إحصائيات الدوري المصري</h2></a>
+                        </div>
+                        <div class="blockStatistics">
+                            <div class="blockScorers">
+                                <div class="titleBlock">
+                                    <p>الهدافون</p>
+                                </div>
+                                <div class="allScorers">
+                                    <div class="rightScorers">
+                                        <div class="imgScorers">
+                                            <a href=""><img src="img/Scorers.jpg" alt=""></a>
+                                        </div>
+                                        <div class="titleScorers">
+                                            <div class="nameScorers">
+                                                <a href=""><h2>وسام ابو علي</h2></a>
+                                            </div>
+                                            <div class="clubScorers">
+                                                <a href=""><h2>الاهلي</h2></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="goalScorers">
+                                        <p>14</p>
+                                        <span>هدف</span>
+                                    </div>
+                                </div>
+                                <div class="allScorers">
+                                    <div class="rightScorers">
+                                        <div class="imgScorers">
+                                            <a href=""><img src="img/Scorers.jpg" alt=""></a>
+                                        </div>
+                                        <div class="titleScorers">
+                                            <div class="nameScorers">
+                                                <a href=""><h2>وسام ابو علي</h2></a>
+                                            </div>
+                                            <div class="clubScorers">
+                                                <a href=""><h2>الاهلي</h2></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="goalScorers">
+                                        <p>14</p>
+                                        <span>هدف</span>
+                                    </div>
+                                </div>
+                                <div class="allScorers">
+                                    <div class="rightScorers">
+                                        <div class="imgScorers">
+                                            <a href=""><img src="img/Scorers.jpg" alt=""></a>
+                                        </div>
+                                        <div class="titleScorers">
+                                            <div class="nameScorers">
+                                                <a href=""><h2>وسام ابو علي</h2></a>
+                                            </div>
+                                            <div class="clubScorers">
+                                                <a href=""><h2>الاهلي</h2></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="goalScorers">
+                                        <p>14</p>
+                                        <span>هدف</span>
+                                    </div>
+                                </div>
+                                <div class="allGoal">
+                                    <a href="">
+                                        <h2>كل الهدافين</h2>
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+                                </div>
+                            </div>
+                            <!-- ranking -->
+                            <div class="blockScorers ">
+                                <div class="titleBlock">
+                                    <p>ترتيب الفرق</p>
+                                </div>
+                                <div class="allScorers  allscorersRanking">
+                                    <div class="rightScorers">
+                                        <div class="imgScorers">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                        </div>
+                                        <div class="titleScorers">
+                                            <div class="nameScorers">
+                                                <a href=""><h2>  الاهلي</h2></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="goalScorers">
+                                        <p>72</p>
+                                        <span>نقطة</span>
+                                    </div>
+                                </div>
+                                <div class="allScorers allscorersRanking">
+                                    <div class="rightScorers">
+                                        <div class="imgScorers">
+                                            <a href=""><img src="img/PyramidsFC2020_12_17_17_30.jpg" alt=""></a>
+                                        </div>
+                                        <div class="titleScorers">
+                                            <div class="nameScorers">
+                                                <a href=""><h2>  بيراميدز</h2></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="goalScorers">
+                                        <p>70</p>
+                                        <span>نقطة</span>
+                                    </div>
+                                </div>
+                                <div class="allScorers allscorersRanking">
+                                    <div class="rightScorers">
+                                        <div class="imgScorers">
+                                            <a href=""><img src="img/elmasry2018_7_24_13_30.jpg" alt=""></a>
+                                        </div>
+                                        <div class="titleScorers">
+                                            <div class="nameScorers">
+                                                <a href=""><h2>  المصري</h2></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="goalScorers">
+                                        <p>52</p>
+                                        <span>نقطة</span>
+                                    </div>
+                                </div>
+                                <div class="allGoal">
+                                    <a href="">
+                                        <h2>كل الترتيب</h2>
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+                                </div>
+                            </div>
+                            <!-- Upcoming matches -->
+                            <div class="blockScorers ">
+                                <div class="titleBlock">
+                                    <p> المباريات القادمة</p>
+                                </div>
+                                <div class="allScorers  upcomingMatches">
+                                    <div class="upcomingMatches">
+                                        <div class="imgUpcomingMatches">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                            <a href=""><h2>  الاهلي</h2></a>
+                                        </div>
+                                        <div class="timeDate">
+                                            <div class="time">
+                                                <p>17:30</p>
+                                            </div>
+                                            <div class="date">
+                                                <p>31/07/2024</p>
+                                            </div>
+                                        </div>
+                                        <div class="imgUpcomingMatches">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                            <a href=""><h2>  الاهلي</h2></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="allScorers  upcomingMatches">
+                                    <div class="upcomingMatches">
+                                        <div class="imgUpcomingMatches">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                            <a href=""><h2>  الاهلي</h2></a>
+                                        </div>
+                                        <div class="timeDate">
+                                            <div class="time">
+                                                <p>17:30</p>
+                                            </div>
+                                            <div class="date">
+                                                <p>31/07/2024</p>
+                                            </div>
+                                        </div>
+                                        <div class="imgUpcomingMatches">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                            <a href=""><h2>  الاهلي</h2></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="allScorers  upcomingMatches">
+                                    <div class="upcomingMatches">
+                                        <div class="imgUpcomingMatches">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                            <a href=""><h2>  الاهلي</h2></a>
+                                        </div>
+                                        <div class="timeDate">
+                                            <div class="time">
+                                                <p>17:30</p>
+                                            </div>
+                                            <div class="date">
+                                                <p>31/07/2024</p>
+                                            </div>
+                                        </div>
+                                        <div class="imgUpcomingMatches">
+                                            <a href=""><img src="img/ahly12023_10_19_17_58 (1).jpg" alt=""></a>
+                                            <a href=""><h2>  الاهلي</h2></a>
+                                        </div>
+                                    </div>
+                                </div>
+                               
+                                <div class="allGoal">
+                                    <a href="">
+                                        <h2>كل المباريات</h2>
+                                    </a>
+                                    <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="advertisementImg">
+                        <h2 class="text-center">اعلان</h2>
+                        <a href=""><img src="" alt=""></a>
+                    </div>
+                </div>
+                <div class="photosVideos">
+                    <div class="titleNews">
+                        <a href=""><h2>صور و فيديوهات</h2></a>
+                        <div class="more">
+                            <a href="">
+                                المزيد
+                                <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+                                </a>
+                        </div>
+                    </div>
+
+                    <div class="allNews">
+                        <div class="rightAllnews">
+                            <div class="bigImg">
+                                <h2> <i class="fa-solid fa-play"></i> </h2>
+                                <a href=""><img src="img/photosVideos.jpg" alt=""></a>
+                                <p>
+                                    ملخص مباراة برشلونة ومانشستر سيتي الودية                       
+                                </p>
+                            </div>
+
+                            <div class="twoImg">
+                                <div class="rightImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="videoSmallScreen hid">
+                            <div class="rightVideo">
+                                <div class="rightImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="leftVideo">
+                                <div class="rightImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                                <div class="leftImg">
+                                    <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                    <a href=""><img src="img/احتفال لاعبي منتخب مصر بعد التأهل لربع نهائي أولمبياد باريس (3)2024_7_30_20_12.jpg" alt=""></a>
+                                    <p>
+                                        أهداف مباراة منتخب مصر واسبانيا
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="middleAllnews">
+                            <div class="topImg">
+                                <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                <a href=""><img src="img/middleAllnews.jpg" alt=""></a>
+                                <p>
+                                    صافرة النهاية واحتفال لاعبي منتخب مصر بعد الفوز أمام إسبانية
+                                </p>
+                            </div>
+                            <div class="middleImg">
+                                <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                <a href=""><img src="img/middleAllnews.jpg" alt=""></a>
+                                <p>
+                                    صافرة النهاية واحتفال لاعبي منتخب مصر بعد الفوز أمام إسبانية
+                                </p>
+                            </div>
+                            <div class="bottomImg">
+                                <h2>  <i class="fa-solid fa-play"></i> </h2>
+                                <a href=""><img src="img/middleAllnews.jpg" alt=""></a>
+                                <p>
+                                    صافرة النهاية واحتفال لاعبي منتخب مصر بعد الفوز أمام إسبانية
+                                </p>
+                            </div>
+                        </div>
+                        <div class="middleAllnews">
+                            <div class="topImg">
+                                <h2>  <i class="fa-solid fa-camera"></i> </h2>
+                                <a href=""><img src="img/middleAllnewsImg.jpg" alt=""></a>
+                                <p>
+                                    لقطات من مباراة منتخب مصر الأولمبي وإسبانيا (صور) 
+                                </p>
+                            </div>
+                            <div class="middleImg">
+                                <h2>  <i class="fa-solid fa-camera"></i> </h2>
+                                <a href=""><img src="img/middleAllnewsImg.jpg" alt=""></a>
+                                <p>
+                                    لقطات من مباراة منتخب مصر الأولمبي وإسبانيا (صور) 
+                                </p>
+                            </div>
+                            <div class="bottomImg">
+                                <h2>  <i class="fa-solid fa-camera"></i> </h2>
+                                <a href=""><img src="img/middleAllnewsImg.jpg" alt=""></a>
+                                <p>
+                                    لقطات من مباراة منتخب مصر الأولمبي وإسبانيا (صور) 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Talk about football -->
+                <div class="talkAboutFootball">
+                    <div class="titleNews">
+                        <a href=""><h2> كلام فى الكورة </h2></a>
+                        <div class="more">
+                            <a href="">
+                                المزيد
+                                <i class="fa-solid fa-arrow-right fa-rotate-180"></i>
+                                </a>
+                        </div>
+                    </div>
+                    <div class="blockTalkAboutFootball">
+                        <div class="allBox">
+                            <div class="boxRight">
+                                <h1>أولمبياد باريس 2024 - كرة قدم</h1>
+                                <a href=""><img src="img/talkAboutFootball.jpg" alt=""></a>
+                                <h2>
+                                    رغم الرهان على فشله.. "باريس 2024" تكتب حلقة جديدة في مسلسل نجاحات ميكالي (فيديو)
+                                </h2>
+                                <p>
+                                    لم يكن أشد المتفائلين يتوقع نجاح منتخب مصر الأولمبي في دورة الألعاب الأولمبية "باريس 2024"، خاصة مع الأداء المتواضع الذي ظهر عليه الفريق خلال أول مباراتين بالتعادل السلبي أمام الدومينيكان والفوز بصعوبة على أوزباكستان بهدف دون رد.
+                                </p>
+                                <span>30 يوليو 2024  | 07:59 م</span>
+                            </div>
+                        </div>
+                            <div class="leftBox">
+                                <div class="topBox">
+                                    <div class="boxNews">
+                                        <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                        <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                                        <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                        الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                        </p>
+                                        <span>30 يوليو 2024  | 07:59 م</span>
+                                    </div>
+                                </div>
+                                <div class="topBox">
+                                    <div class="boxNews">
+                                        <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                        <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                                        <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                        الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                        </p>
+                                        <span>30 يوليو 2024  | 07:59 م</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="leftBox">
+                                <div class="topBox">
+                                    <div class="boxNews">
+                                        <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                        <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                                        <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                        الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                        </p>
+                                        <span>30 يوليو 2024  | 07:59 م</span>
+                                    </div>
+                                </div>
+                                <div class="topBox">
+                                    <div class="boxNews">
+                                        <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                        <a href=""><img src="img/boxNews.jpg" alt=""></a>
+                                        <p>الفراعنة يحنطون الماتادور.. مصر تخطف               
+                                        الصدارة من إسبانيا وتتأهل لربع نهائي الأولمبياد (فيديو)                        
+                                        </p>
+                                        <span>30 يوليو 2024  | 07:59 م</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="topImgSmallScreen hid">
+                                <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                                <div class="textSmallScreen">
+                                    <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                    <a href=""><p>
+                                        أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                    </p></a>
+                                </div>
+                            </div>
+                            <div class="topImgSmallScreen hid">
+                                <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                                <div class="textSmallScreen">
+                                    <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                    <a href=""><p>
+                                        أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                    </p></a>
+                                </div>
+                            </div>
+                            <div class="topImgSmallScreen hid">
+                                <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                                <div class="textSmallScreen">
+                                    <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                    <a href=""><p>
+                                        أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                    </p></a>
+                                </div>
+                            </div>
+                            <div class="topImgSmallScreen hid">
+                                <a href=""><img src="img/مصر-اسبانيا2024_7_30_11_6.jpg" alt=""></a>
+                                <div class="textSmallScreen">
+                                    <h2>أولمبياد باريس 2024 - كرة قدم</h2>
+                                    <a href=""><p>
+                                        أولمبياد باريس 2024 - كرة قدم محدث باستمرار.. اليوم الرابع لأبطال مصر بالأولمبياد.. منتخب الطائرة الشاطئية يخسر مجددا
+                                    </p></a>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <!-- application Yallakora  -->
+                <div class="application">
+                    <span class="spanLeft"></span>
+                    <span class="spanRight"></span>
+                    <div class="applicationYallakora">
+                        <div class="tileApp">
+                            <h2>تطبيق يلا كورة</h2>
+                            <p>تابع الأحــداث الرياضيــة و حــمــل التطبـيق الآن</p>
+                        </div>
+                        <div class="downloadApp">
+                            <div class="smallScreenTileApp hid">
+                                <h2>تطبيق يلا كورة</h2>
+                                <p>تابع الأحــداث الرياضيــة و حــمــل التطبـيق الآن</p>
+                            </div>
+                                <div class="googlePlay">
+                                    <a href=""><img src="img/googlePlay.png" alt=""></a>
+                                </div>
+                                <div class="appStore">
+                                    <a href=""><img src="img/appStore.png" alt=""></a>
+                                </div>
+                                <div class="appGallery">
+                                    <a href=""><img src="img/appGallery.png" alt=""></a>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="appMood">
+                        <img src="img/AppMob.png" alt="">
+                    </div>
+                </div>
+                <!-- footer -->
+                <div class="footer">
+                    <div class="footerYallakora">
+                        <div class="logoFooter">
+                            <a href=""><img src="img/ykLogo.png" alt=""></a>
+                        </div>
+                        <div class="navbarFooter">
+                            <ul>
+                                <li><a href="">المباريات</a></li>
+                                <li><a href="">الاخبار</a></li>
+                                <li><a href="">دوريات وبطولات</a> </li>
+                                <li><a href="">مالتيميديا</a></li>
+                                <li><a href="">الانتقالات</a></li>
+                                <li><a href="">رياضات أخرى</a> </li>
+                                <li><a href="">ريلز</a></li>
+                                <li><a href="" class="border-0">أولمبياد باريس 2024</a></li>
+                            </ul>
+                        </div>
+                        <div class="socialMediaFooter">
+                            <a href=""><i class="fa-brands fa-facebook-f facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+                            <a href=""><i class="fa-brands fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                    <div class="endFooter">
+                        <div class="connectFooter">
+                            <ul>
+                                <li><a href="">اتصل بنا</a></li>
+                                <li><a href="">للاعلان معنا</a></li>
+                                <li><a href="">سياسة الخصوصية</a></li>
+                            </ul>
+                        </div>
+                        <div class="downloadAppFooter">
+                            <p>حمل التطبيق</p>
+                            <div class="icon">
+                                <a href=""><img src="img/iosIcon.png" alt=""></a>
+                                <a href=""><img src="img/androidapp.png" alt=""></a>
+                                <a href=""><img src="img/huaweiapp.png" alt=""></a>
+                            </div>
+                        </div>
+                        <div class="rights">
+                            <p>جميع الحقوق محفوظة لدى</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+</body>
+</html>
